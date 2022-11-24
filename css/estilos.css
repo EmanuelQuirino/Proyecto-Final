@@ -111,6 +111,28 @@ width: 30rem;
 object-fit: cover;
 }
 
-.nav-custom{
-min-height: 50px;
+
+
+@media(min-width:768px){
+    .nav-custom{
+    min-height: 50px;
+    height: 140px;}
+    
 }
+.margintop {
+    margin-top: 40px;
+}
+
+@media(max-width:768){
+    .contacto{
+        margin: none;
+    }
+    .ubicacion{
+        margin: none;
+    }
+}
+
+/* .col{
+    color: aqua;
+    font-size: 50px;
+} */

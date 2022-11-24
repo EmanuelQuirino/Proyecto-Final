@@ -1,38 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Productos</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a>
-                </li>
-                <li><a href="./contacto.html">Contacto</a>
-                </li>
-                <li><a href="./conocenos.html">Conocenos</a>
-                </li>
-                <li><a href="./productos.html">Productos</a>
-                </li>
-                <li><a href="./servicios.html">Servicios</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-custom">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0">
+                        <li><a class="navbar-brand" href="../index.html">Inicio</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section>
-            <div class="productos"> 
-                <img src="../img/hierro.png" alt="Hierro">
-                <img src="../img/chapa.jpg" alt="Chapa">
-                <img src="../img/Perfiles.jpg" alt="Perfiles">
-                <img src="../img/Aislacion.jpg" alt="Aislacion"> 
-                <img src="../img/Caños y tubos.jpg" alt="Caños y tubos">
-                <img src="../img/Buloneria.jpg" alt="Buloneria"> 
+            <div class="container text-center">
+                <div class="row mt-3">
+                    <div class="col">
+                        <img src="../img/hierro.png" alt="Hierro">
+                        <p>Hierros</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/chapa.jpg" alt="Chapa">
+                        <p>Chapa</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/Perfiles.jpg" alt="Perfiles">
+                        <p>Perfiles</p>
+                    </div>
+                </div>
+                <div class="row margintop">
+                    <div class="col">
+                        <img src="../img/Aislacion.jpg" alt="Aislacion">
+                        <p>Aislacion</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/Caños y tubos.jpg" alt="Caños y tubos">
+                        <p>Caños y Tubos</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/Buloneria.jpg" alt="Buloneria">
+                        <p>Buloneria</p> 
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -42,5 +77,9 @@
 
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
