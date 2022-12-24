@@ -1,6 +1,5 @@
 
   @import "generales";
-  @import "variablesglobales";
   
   html{
     min-height: 100%;
@@ -83,6 +82,18 @@
     color: white;
     font-size: 20px;
   }
+
+  @media(max-width: 768px){
+    .contacto {
+      margin: 1rem 25rem 1rem 25rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
   
   .ubicacion {
     margin: 1rem 20rem 1rem 20rem;
@@ -92,7 +103,20 @@
     font-size: 20px;
     margin-top: 2rem;
   }
-  
+
+  @media(max-width: 768px){
+    .ubicacion {
+      margin: 1rem 20rem 1rem 20rem;
+      text-align: center;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: white;
+      font-size: 20px;
+      margin-top: 2rem;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
   .conocenos {
     text-align:center;
     font-size: 30px;
@@ -104,6 +128,21 @@
     margin-left: 160px;
     margin-right: 160px;
   }
+
+  @media (max-width: 768px) {
+    .conocenos {
+    text-align:center;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color:white;
+    background-color: rgba(0,0,0,0.5) !important;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+  
 
   .servi {
     list-style-type: none;
@@ -119,6 +158,19 @@
     transform: scale(1.5);
     transition-property: all;
     transition-duration: 4s;
+  }
+
+  @media (max-width: 768px) {
+    .servi {
+      list-style-type: none;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
+     text-align: center;
+     border-radius: 15px;
+     background-color: rgba(0,0,0,0.8) !important;
+    }
   }
   
   .productos {
@@ -144,8 +196,6 @@
     transition-duration: 3s;
     transition-property: all;
   }
-  
-
   
   
   @media (min-width: 768px) {
